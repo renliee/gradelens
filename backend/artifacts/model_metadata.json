@@ -1,0 +1,120 @@
+{
+  "best_model": "Linear Regression",
+  "test_metrics": {
+    "Model": "Linear Regression",
+    "MAE": 0.4102771335495981,
+    "MSE": 2.303764793629584,
+    "RMSE": 1.5178157970022528,
+    "R2": 0.8257919965237723,
+    "Adjusted R2": 0.8232497906358704
+  },
+  "feature_schema": {
+    "numeric": {
+      "Hours_Studied": {
+        "min": 1.0,
+        "max": 44.0,
+        "mean": 19.974265818952468,
+        "median": 20.0
+      },
+      "Attendance": {
+        "min": 60.0,
+        "max": 100.0,
+        "mean": 79.9747199515592,
+        "median": 80.0
+      },
+      "Sleep_Hours": {
+        "min": 4.0,
+        "max": 10.0,
+        "mean": 7.029215864365728,
+        "median": 7.0
+      },
+      "Previous_Scores": {
+        "min": 50.0,
+        "max": 100.0,
+        "mean": 75.06781713593703,
+        "median": 75.0
+      },
+      "Tutoring_Sessions": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 1.4931880108991826,
+        "median": 1.0
+      },
+      "Physical_Activity": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 2.9676052073872237,
+        "median": 3.0
+      }
+    },
+    "ordinal": {
+      "Parental_Involvement": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "Access_to_Resources": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "Motivation_Level": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "Family_Income": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "Teacher_Quality": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "Parental_Education_Level": [
+        "High School",
+        "College",
+        "Postgraduate"
+      ],
+      "Distance_from_Home": [
+        "Near",
+        "Moderate",
+        "Far"
+      ],
+      "Peer_Influence": [
+        "Negative",
+        "Neutral",
+        "Positive"
+      ]
+    },
+    "nominal": {
+      "Extracurricular_Activities": [
+        "No",
+        "Yes"
+      ],
+      "Internet_Access": [
+        "No",
+        "Yes"
+      ],
+      "School_Type": [
+        "Private",
+        "Public"
+      ],
+      "Learning_Disabilities": [
+        "No",
+        "Yes"
+      ],
+      "Gender": [
+        "Female",
+        "Male"
+      ]
+    }
+  },
+  "target": "Exam_Score",
+  "target_range": [
+    55,
+    100
+  ]
+}
