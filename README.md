@@ -13,7 +13,7 @@ about 83% of the score variance and is off by roughly 0.4 points on average.
 
 **https://gradelens.onrender.com**
 
-"The first request may take up to 30 seconds because the server goes to sleep when it hasn’t been used for a while."
+**Deployment Note** : The first request may take up to 30 seconds because the server goes to sleep when it hasn’t been used for a while.
 
 ## Running locally
 
@@ -60,7 +60,7 @@ student-performance-v2forfriends/
   scripts/     Setup and start scripts
 ```
 
-## The two tabs
+## The three tabs
 
 - **Dashboard** : enter a student's details and get a predicted score with a
   breakdown of which factors helped or hurt.
