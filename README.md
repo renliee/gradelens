@@ -62,11 +62,11 @@ student-performance-v2forfriends/
 
 ## The two tabs
 
-- **Dashboard** — enter a student's details and get a predicted score with a
+- **Dashboard** : enter a student's details and get a predicted score with a
   breakdown of which factors helped or hurt.
-- **How it works** — model steps, accuracy numbers in plain language, and the
+- **How it works** : model steps, accuracy numbers in plain language, and the
   analysis charts.
-
+- **About** : project background and what the model is built on.
 
 ## Notes
 
