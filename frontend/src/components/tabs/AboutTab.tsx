@@ -1,13 +1,5 @@
-import { COURSE, TEAM } from "../../data/team";
+import { COURSE } from "../../data/team";
 import Icon from "../Icon";
-
-const initials = (name: string) =>
-  name
-    .split(" ")
-    .map((p) => p[0])
-    .join("")
-    .slice(0, 2)
-    .toUpperCase();
 
 export default function AboutTab() {
   return (
@@ -32,18 +24,6 @@ export default function AboutTab() {
           {COURSE.group}, class {COURSE.class}. {COURSE.code} {COURSE.name},{" "}
           {COURSE.institution}.
         </p>
-      </div>
-
-      <div className="teamgrid">
-        {TEAM.map((m) => (
-          <div key={m.studentId} className="card member">
-            <div className="member__avatar">{initials(m.name)}</div>
-            <div className="member__name">{m.name}</div>
-            <div className="member__id">{m.studentId}</div>
-            <span className="member__role">{m.role}</span>
-            <p className="member__did">{m.did}</p>
-          </div>
-        ))}
       </div>
 
       <div className="purposegrid">
