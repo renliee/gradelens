@@ -11,9 +11,9 @@ about 83% of the score variance and is off by roughly 0.4 points on average.
 
 ## Live demo
 
-**https://gradelens.onrender.com**
+**https://gradelens-jb7z.onrender.com/**
 
-**Deployment Note** : The first request may take up to 30 seconds because the server goes to sleep when it hasn’t been used for a while.
+**Deployment Note** : The first request may take up to 1 minute because the server goes to sleep when it hasn’t been used for a while.
 
 ## Running locally
 
