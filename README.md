@@ -1,10 +1,10 @@
-# GradeLens — Student Performance Predictor
+# GradeLens: Student Performance Predictor
 
 Predicts a student's final exam score from everyday factors (study hours,
 attendance, sleep, motivation, family background, and more) and shows what
 pushed the score up or down.
 
-COMP6577001 Machine Learning, Final Project. Group 8 (LA84), BINUS University.
+Machine Learning, Final Project. Group 8 (LA84), BINUS University.
 
 The model is a Linear Regression trained on 6,607 student records. It explains
 about 83% of the score variance and is off by roughly 0.4 points on average.
@@ -13,7 +13,7 @@ about 83% of the score variance and is off by roughly 0.4 points on average.
 
 **https://gradelens.onrender.com**
 
-First load may take up to 30 seconds, the server spins down when idle.
+"The first request may take up to 30 seconds because the server goes to sleep when it hasn’t been used for a while."
 
 ## Running locally
 
@@ -60,22 +60,19 @@ student-performance-v2forfriends/
   scripts/     Setup and start scripts
 ```
 
-## The three tabs
+## The two tabs
 
 - **Dashboard** — enter a student's details and get a predicted score with a
   breakdown of which factors helped or hurt.
 - **How it works** — model steps, accuracy numbers in plain language, and the
   analysis charts.
-- **About** — project background and team.
 
 
 ## Notes
 
 - Input values are not capped to the dataset range. If a value falls outside
-  the training range, the field flags it — predictions outside that range are
+  the training range, the field flags it. Predictions outside that range are
   less reliable.
-- To update team info, edit `frontend/src/data/team.ts` and rebuild
-  (`npm run build` inside `frontend/`).
 
 ## Frontend dev mode
 
